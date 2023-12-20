@@ -1,0 +1,47 @@
+<data>
+    <record id="inherit_hr_payslip_form" model="ir.ui.view">
+        <field name="name">inherit.hr.payslip.form</field>
+        <field name="model">hr.payslip</field>
+        <!--<field name="groups_id" eval="[(4, ref(''))]"/>-->
+        <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page name="bonus" string="Bonus">
+                    <group>
+                        <field name="bonus_amount"/>
+                        <!-- add  context="{'default_field' : field}" to set default value -->
+                        <field name="allowance_ids">
+                            <tree >
+                                <field name="date"/>
+                                <field name="employee_id"/>
+                                <field name="contract_id"/>
+                                <field name="type"/>
+                                <field name="value"/>
+                                <field name="amount"/>
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+
+                <page name="penalty" string="Penalty">
+                    <group>
+                        <field name="penalty_amount"/>
+                        <!-- add  context="{'default_field' : field}" to set default value -->
+                        <field name="penalty_ids">
+                            <tree >
+                                <field name="date"/>
+                                <field name="employee_id"/>
+                                <field name="contract_id"/>
+                                <field name="type"/>
+                                <field name="value"/>
+                                <field name="amount"/>
+                            </tree>
+                        </field>
+                    </group>
+                </page>
+
+            </xpath>
+
+        </field>
+    </record>
+</data>
