@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec4cdf59-6eb8-4735-8004-5eb6d5948053" name="Changes" comment="Modified {Added New Files}" />
+    <list default="true" id="ec4cdf59-6eb8-4735-8004-5eb6d5948053" name="Changes" comment="Modified {Added New File}" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Zo5RYmVVvNLcEQaVrIr1w5qsvi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "new__branch__from__labtop",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/mmomtaz/odoo"
   }
 }]]></component>
@@ -88,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Modified {Added New Files}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified {Added New Files}" />
+    <MESSAGE value="Modified {Added New File}" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified {Added New File}" />
   </component>
 </project>

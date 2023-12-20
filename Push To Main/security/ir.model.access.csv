@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+allowance_allowance_id,allowance_allowance_name,model_allowance_allowance,,1,1,1,1
+penalty_penalty_id,penalty_penalty_name,model_penalty_penalty,,1,1,1,1
